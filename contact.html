@@ -59,31 +59,31 @@
 
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name:-</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Please Enter Your Name" >
+        <input type="text" class="form-control" id="name" placeholder="Please Enter Your Name" >
       </div>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Email Address:-</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please Enter Your Email Address">
+        <input type="email" class="form-control" id="email" placeholder="Please Enter Your Email Address">
       </div>
 
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Contact No:-</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Please Enter Your Contact Number" >
+        <input type="text" class="form-control" id="contact" placeholder="Please Enter Your Contact Number" >
       </div>
     
          
       <select class="form-select" aria-label="Default select example">
         <option selected>Select Your Query</option>
-        <option value="1">About products</option>
-        <option value="2">About Services</option>
-        <option value="3">Others</option>
+        <option id="product" value="1">About products</option>
+        <option id="services"value="2">About Services</option>
+        <option id="others" value="3">Others</option>
       </select>
 
       <div class="mb-3 my-2">
         <label for="exampleFormControlTextarea1" class="form-label">Message:-</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <a class="btn btn-primary" href="contact.html">
+      <a class="btn btn-primary" id="submit">
         submit
       </a>
     </div>
@@ -96,7 +96,7 @@
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted   text-reset"><b>Home</b></a></li>
         <li class="nav-item"><a href="#carouselExampleDark"
             class="nav-link px-2 text-muted   text-reset"><b>Products</b></a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted   text-reset"><b>About Us</b></a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted   text-reset"><b>About Us</b></a></li>
       </ul>
       <p class="text-center text-reset text-muted"><b><i>© 2021 Tech Hub pvt.Limited</i></b></p>
     </footer>
@@ -104,6 +104,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
